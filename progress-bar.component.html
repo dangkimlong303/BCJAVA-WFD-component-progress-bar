@@ -1,0 +1,12 @@
+<p>
+  progress-bar works!
+</p>
+
+<h2>Progress Bar</h2>
+
+<div class="progress-bar-container" [style.backgroundColor]="bColor">
+  <div class="progress" [ngStyle]="{
+    backgroundColor: pColor,
+    width: width + '%'
+  }"></div>
+</div>
